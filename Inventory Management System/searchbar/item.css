@@ -1,0 +1,45 @@
+
+.items
+{
+  background-color: violet;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+.carousel {
+  perspective: 1000px;
+  height: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+.carousel__cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 250px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
+.carousel__cell img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.carousel__cell:hover {
+  transform: translateZ(100px) scale(1.2);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+}

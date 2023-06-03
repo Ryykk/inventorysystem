@@ -1,0 +1,43 @@
+ @import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+.table
+{
+    display: flex;
+    justify-content:space-around;
+    /* background-color:rgb(247, 101, 247); */
+    
+}
+
+.products:hover
+{
+   cursor: pointer;
+   transform: translateZ(100px) scale(1.2);
+   box-shadow: violet;
+   font-weight: bolder;
+}
+
+.products h1
+{
+    font-family: 'Sigmar', cursive;
+    color: palegoldenrod;
+    text-decoration: none;
+
+}
+
+.products
+{
+    border-radius: 30px;
+    padding: 45px;
+}
+.choco
+{
+    background-color: rgb(238, 130, 215);
+}
+.shoes
+{
+    background-color: rgb(243, 58, 196) ;
+}
+
+
+
+
+
